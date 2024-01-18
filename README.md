@@ -21,30 +21,36 @@ Clone the repository to your local machine:
 
 **bash
 Copy code**
+
 git clone https://github.com/your-username/bookstore-ecommerce.git
 
 Navigate to the project directory:
 
 **bash
 Copy code**
+
 cd bookstore-ecommerce
 Install dependencies:
 
 **bash
 Copy code**
+
 npm install
 
 Start the development server:
 
 **bash
 Copy code**
+
 npm start
 The application will be accessible at http://localhost:3000.
 
 **Backend Setup**
-(If applicable) Set up the Java backend server. install Java 17
+
+Set up the Java backend server. install Java 17
 
 Configure the frontend to connect to the backend. Update the API endpoints or configuration files as needed.
 
-Contributing
+**Contributing**
+
 If you would like to contribute to the development of this E-Commerce website, please follow the guidelines in the CONTRIBUTING.md file.
