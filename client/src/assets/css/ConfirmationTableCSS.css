@@ -1,0 +1,27 @@
+.confirmation_table {
+    width: 1200px;
+    border-collapse: collapse;
+    border: 2px solid #b3d4fc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.confirmation_tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.confirmation_td {
+    width: 50px;
+    padding: 10px;
+    text-align: left;
+}
+
+.confirmation_td:last-child {
+    text-align: right;
+}
+
+.confirmation_td b {
+    display: block;
+    margin-bottom: 5px;
+}
+

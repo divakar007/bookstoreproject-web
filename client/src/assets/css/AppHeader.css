@@ -1,0 +1,193 @@
+body{
+    padding: 5px;
+}
+.main-container{
+    display: grid;
+    width: 1200px;
+    height:800px;
+}
+
+.header{
+    display: grid;
+    height: 175px;
+    width: 1200px;
+}
+.title-bar{
+    display: flex;
+    background-color: #F0C1C1;
+    color: black;
+    text-align: left;
+    height: 108px;
+    width: 1200px;
+}
+.navigation-bar{
+    display: flex;
+    background-color: white;
+    height: 75px;
+    width: 1200px;
+    align-items: baseline;
+}
+
+.title-logo{
+    width: 120px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.title-logo-img{
+    height: 100px;
+}
+.title{
+    color: black;
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: "Tahoma", serif;
+    font-weight: bold;
+    width: 900px;
+}
+.header-icons{
+    display: flex;
+    font-size: 25px;
+    /*padding-top: 40px;*/
+}
+.bar-icon{
+    width: 50px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.left-navigation{
+    display: flex;
+    align-items: baseline;
+    width: 600px;
+}
+.right-navigation{
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+    padding-right: 30px;
+    gap: 20px;
+}
+.search-bar{
+    flex-grow:1;
+    width: 400px;
+    height: 20px;
+    border: 2px solid #F0C1C1;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+}
+.search-bar-container{
+    display: flex;
+    width: 400px;
+    padding: 12px;
+    overflow: hidden;
+
+}
+input::placeholder {
+    font-size: 16px; /* Change the font size as desired */
+    font-family: Arial, sans-serif; /* Change the font family as desired */
+    color: #888; /* Change the text color as desired */
+}
+.search-icon{
+    padding-top: 5px;
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    /*margin: 4px 2px;*/
+    display: inline-block;
+    border: 1px solid #F0C1C1;
+    background-color: black;
+    width: 40px;
+    height: 44px;
+    border-radius: 0 5px 5px 0;
+}
+.search-icon:hover{
+    background-color: #F0C1C1;
+}
+.search-icon-container {
+    padding-top: 5px;
+}
+.buttons{
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #F0C1C1;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Roboto Thin", serif;
+    transition: background-color 0.3s ease;
+}
+.buttons:hover{
+    background-color: #F0C1C1;
+}
+
+.login-btn{
+    padding: 15px;
+    font-size:25px;
+    height: 100px;
+}
+
+/* Style the container to position it relative */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: #F0C1C1;
+    cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    background-color: #F0C1C1;
+    display: block;
+}
+
+.counter {
+    position: absolute; /* Position the button relative to the container */
+    top: 20px; /* Adjust the top position as needed */
+    right: 0; /* Adjust the right position as needed */
+    padding: 5px 10px; /* Adjust padding as needed */
+    background-color: black; /* Button background color */
+    color: #fff; /* Button text color */
+    border-radius: 50px; /* Remove button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    font-size: 16px;
+}
+
+.cartButton{
+    color: black;
+}
+.cartButton:hover{
+    color: white;
+}

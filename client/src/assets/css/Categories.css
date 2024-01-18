@@ -1,0 +1,28 @@
+.cat-body-container{
+    background-color: #F5F4F9;
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    width: 1200px;
+    height: 542px;
+}
+
+.cat-body-top{
+    display: flex;
+    justify-content: center;
+    background-color: #F5F4F9;
+    width: 1200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+}
+.cat-body-top-text{
+    font-size: 25px;
+    padding: 5px 50px 5px 50px;
+    font-weight: bold;
+    font-style: revert;
+    font-family: Georgia, sans-serif;
+    color: #772ea8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.50);
+    margin: 0;
+}

@@ -1,0 +1,22 @@
+.confirmationView{
+    display: grid;
+    align-items: center;
+    width: 1200px;
+}
+.confirmationHeader{
+    color: #772ea8;
+}
+
+.customer_details {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.customer_details li {
+    margin: 10px 0;
+}
+
+.customer_details strong {
+    font-weight: bold;
+}

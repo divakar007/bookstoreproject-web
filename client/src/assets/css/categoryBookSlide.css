@@ -1,0 +1,118 @@
+.cat-body-bottom{
+    background-color: #F5F4F9;
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(5,200px);
+    width: 1200px;
+    height: 507px;
+    padding-top: 15px;
+}
+
+.cat-book-slide{
+    background-color: white;
+    display: grid;
+    grid-gap: 2px;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 5px 8px 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cat-book-image{
+    width: 120px;
+    height: 145px;
+    padding: 2px;
+}
+
+.book-text{
+    margin: 2px;
+    font-size: 12px;
+}
+.cat-book-name{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Roboto Thin",sans-serif;
+}
+.cat-book-author{
+    font-family: "Rockwell Extra",sans-serif;
+    font-weight: lighter;
+}
+.cat-book-price{
+    font-family: "Roboto Thin",sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button-text{
+    margin: 1px;
+}
+
+.readnow-icon{
+    z-index: 1;
+}
+
+.cat-book-button{
+    font-size: 10px;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    border-color: #F0C1C1;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Roboto Thin", serif;
+    transition: background-color 0.3s ease;
+}
+
+.book-slide-bottom{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.image-container{
+    position: relative; /* Make the container a positioning context */
+    max-width: 100%; /* Adjust as needed */
+}
+
+.corner-button {
+    position: absolute; /* Position the button relative to the container */
+    top: 5px; /* Adjust the top position as needed */
+    right: 5px; /* Adjust the right position as needed */
+    padding: 5px 10px; /* Adjust padding as needed */
+    background-color: green; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+.cat-nav-item{
+    display: flex;
+    width: 1200px;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    border-bottom: #F0C1C1 1px solid;
+}
+.nav-item {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Roboto, serif;
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #ffffff;
+    color: black;
+}
+.nav-item:hover {
+    background-color: #F0C1C1;
+}
+.selected-nav-item{
+    background: #F0C1C1;
+}
