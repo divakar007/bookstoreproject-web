@@ -1,8 +1,11 @@
 **Bookstore E-Commerce Website** 
+
 **Overview**
+
 This repository contains the source code for a web application - an E-Commerce website for a bookstore. The application is built using React JS for the frontend, Java for the backend, and HTML/CSS for styling.
 
 **Features**
+
 Browse a wide range of books categorized by genres.
 View detailed information about each book, including price, author, and description.
 Add books to the shopping cart for purchase.
